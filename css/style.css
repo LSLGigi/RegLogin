@@ -1,0 +1,82 @@
+body,.jumbotron{
+	background-color:#F7FAFC;
+}
+.jumbotron h1{
+	color:#3199ED;
+}
+a:link,a:visited,a:hover,a:active{
+	text-decoration:none;
+}
+.container{
+	margin-bottom:132px;
+}
+.commentForm{
+	max-width:330px;
+	margin:0 auto;
+	padding:15px;
+}
+.form-control{
+	margin-bottom:-15px;
+	padding: 10px;
+	font-size: 16px;
+	height:44px;
+}
+.error{
+	position:absolute;
+	right:45px;
+	top:12px;
+	color:#c33;
+}
+label {
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 5px;
+	font-weight: 700;
+}
+
+.nav-tabs {
+	border-bottom:none;
+}
+ul{
+	display:block;
+	width:330px;
+	margin:0 auto;
+}
+.nav li.one{
+	margin-left:100px;
+}
+.nav li.two{
+	margin-right:100px;
+}
+#input{
+	display: inline-block;
+	border-right:none;
+	width:230px;
+	border-top-right-radius:0;
+	border-bottom-right-radius:0;
+}
+.code{
+	font-style:italic;
+	font-weight:bold;
+	color:black;
+	letter-spacing:2px;
+}
+span.form-control {
+	display: inline-block;
+	width:65px;
+	border-left:none;
+	border-top-left-radius:0;
+	border-bottom-left-radius:0;
+}
+button{
+	background:#0F88EB;
+	color:#fff;
+}
+footer{
+	position:absolute;
+	bottom:-160px;
+	width:100%;
+	text-align:center;
+	padding:40px 0;
+	border-top:1px solid #e5e5e5;
+}
