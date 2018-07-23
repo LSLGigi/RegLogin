@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>仿知乎注册与登录</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="jumbotron">
+    <div class="container-fluid">
+        <h1 class="text-center">知乎</h1>
+        <p class="text-center">与世界分享你的知识、经验和见解</p>
+    </div>
+</div>
+<!--注册登录开始-->
+<div class="container">
+    <ul class="nav nav-tabs">
+        <li class="one active"><a href="#regist" data-toggle="tab">注册</a></li>
+        <li class="two"><a href="#login" data-toggle="tab">登录</a></li>
+    </ul>
+    <div class="tab-content">
+        <!--注册开始-->
+        <div class="tab-pane fade in active" id="regist">
+            <form id="form-reg" class="commentForm">
+                <div class="form-group has-feedback">
+                    <label for="name" class="control-label sr-only">用户名</label>
+                    <input class="form-control" id="name" name="username" type="text" placeholder="用户名"/>
+                </div>
+                <div class="form-group has-feedback">
+                    <label for="pw" class="control-label sr-only">密码</label>
+                    <input class="form-control" id="pw" type="password" name="password" placeholder="密码"/>
+                </div>
+                <div class="form-group has-feedback">
+                    <label for="re-pw" class="control-label sr-only">确认密码</label>
+                    <input class="form-control" id="re-pw" type="password" name="re-password" placeholder="确认密码"/>
+                </div>
+                <div class="form-group has-feedback">
+                    <label for="email" class="control-label sr-only">邮箱</label>
+                    <input class="form-control" id="email" name="email" placeholder="邮箱"/>
+                </div>
+                <div class="form-group has-feedback">
+                    <label for="phone" class="control-label sr-only">手机号码</label>
+                    <input class="form-control" id="phone" name="phone" placeholder="手机号码"/>
+                </div>
+                <div class="form-group has-feedback">
+                    <input class="form-control input input_white first_child" id="input" type="text" name="" placeholder="验证码"/>
+                    <span class="form-control"><a rel="nofollow" href="javascript:;" class="code"></a></span>
+                </div>
+                <button class="btn btn-lg btn-block" type="submit">注册</button>
+            </form>
+        </div>
+        <!--注册结束-->
+        <!--登录开始-->
+        <div class="tab-pane fade" id="login">
+            <form id="form-login" class="commentForm">
+                <div class="form-group has-feedback">
+                    <label for="name" class="control-label sr-only">用户名</label>
+                    <input class="form-control" id="name" name="username" type="text" placeholder="用户名"/>
+                </div>
+                <div class="form-group has-feedback">
+                    <label for="pw" class="control-label sr-only">密码</label>
+                    <input class="form-control" id="pw" type="password" name="password" placeholder="密码"/>
+                </div>
+                <button class="btn btn-lg btn-block" type="submit">登录</button>
+            </form>
+        </div>
+        <!--登录结束-->
+    </div>
+</div>
+<!--注册登录结束-->
+<!--页脚开始-->
+<footer>
+    <p>仿照知乎注册和登录的一个demo. 结合使用了<a href="#">bootstrap</a>、<a href="#">jquery</a>、<a href="#">jquery validation</a>.</p>
+</footer>
+<!--页脚结束-->
+<script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+<script src="js/validate.js"></script>
+</body>
+</html>
